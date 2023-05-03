@@ -109,8 +109,8 @@ section {
 
 .carResults h2 {
     margin: 5px auto;
-    width: 50%;
-    background-color: #0e0e0ec2;
+    width: 40%;
+    background-color: #c6000099;
     border-radius: 10px;
 }
 
@@ -156,4 +156,34 @@ section {
 
 .maxtrue {
     color: gold;
+}
+
+@media screen and  (max-width:420px){
+    body {
+        background-image: url("body-images/phone-background.png");
+    }
+    #body {
+        width: 95%;
+    }
+    header {
+        margin: 0px auto;
+        height: 50px;
+        position: fixed;
+        top: 0px;
+    }
+    #logo #firstpart {
+        height: 35px;
+    }
+    
+    #logo #secondpart {
+        height: 25px;
+    }
+    #headertitlecontainer {
+        width: 30%;
+    }
+    #headerTitle {
+        width: 100%;
+        font-size: smaller;
+        margin-right: 5px;
+    }
 }

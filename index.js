@@ -33,9 +33,12 @@
             if (allPlayers[index].player_name == player) {
                 PlayerCarsD = allPlayers[index].cars_d;
                 PlayerCarsC = allPlayers[index].cars_c;
+                PlayerCarsB = allPlayers[index].cars_b
+                PlayerCarsA = allPlayers[index].cars_a
+                PlayerCarsS = allPlayers[index].cars_s
             }
         }
-        createCards(PlayerCarsD, PlayerCarsC);
+        createCards(PlayerCarsD, PlayerCarsC, PlayerCarsB, PlayerCarsA, PlayerCarsS);
     }
 
     function search() {
@@ -53,16 +56,23 @@
     }
 
     function createCards(carsD, carsC) {
+        // let playerNameHeading = document.createElement("div");
+        // playerNameHeading.innerHTML = `${   }`
+
+        let totalStars = "";
+                let actualStars = "";
+                let gold = "";
+                let locked = "";
         if (carsD != "") {
             document.getElementById("d_cars_list").style.display = "block";
             for (let index = 0; index < carsD.length; index++) {
 
                 let thisCar = document.createElement("div");
 
-                let totalStars = "";
-                let actualStars = "";
-                let gold = "";
-                let locked = "";
+                totalStars = "";
+                actualStars = "";
+                gold = "";
+                locked = "";
 
                 for (var i = 0; i < carsD[index].max_stars; i++) {
                     totalStars += '&#9733;';
@@ -74,11 +84,11 @@
                 if (carsD[index].is_max == true) {
                     gold = "maxtrue";
                 }
-                // if (carsD[index].stars == 0) {
-                //     locked = ",url(body-images/locked-car.png)"
-                // }
+                if (carsD[index].stars == 0) {
+                    locked = "url(body-images/locked-car.png),"
+                }
                 thisCar.innerHTML = `
-            <div class="main" style="background-image: url(${carsC[index].car_image}); background-repeat: no-repeat;
+            <div class="main" style="background-image: ${locked} url(${carsD[index].car_image}); background-repeat: no-repeat;
             background-size: 100% 100%;">
                 <div class="name">${carsD[index].car_name.toUpperCase()}</div>
                 <div class="totalstars">${totalStars}</div>
@@ -94,10 +104,10 @@
 
                 let thisCar = document.createElement("div");
 
-                let totalStars = "";
-                let actualStars = "";
-                let gold = "";
-                let locked = "";
+                totalStars = "";
+                actualStars = "";
+                gold = "";
+                locked = "";
 
                 for (var i = 0; i < carsC[index].max_stars; i++) {
                     totalStars += '&#9733;';

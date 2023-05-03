@@ -468,7 +468,7 @@
                 "car_class": "c",
                 "car_image": "class-C/atscorsa.jpg",
                 "stars": 0,
-                "max_stars": 0,
+                "max_stars": 4,
                 "is_max": false,
                 "brand_name": "ats"
             },
