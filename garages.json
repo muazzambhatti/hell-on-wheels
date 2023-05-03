@@ -1,0 +1,941 @@
+[
+    {
+        "player_name": "a duck",
+        "cars_d": [
+            {
+                "car_name": "mitsubishi lancer evolution",
+                "car_class": "d",
+                "car_image": "class-D/mitsubishilancer.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "mitsubishi"
+            },
+            {
+                "car_name": "BMW z4 lci e89",
+                "car_class": "d",
+                "car_image": "class-D/bmwz4.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "bmw"
+            },
+            {
+                "car_name": "Chevorlet camaro lt",
+                "car_class": "d",
+                "car_image": "class-D/chevycamaroLT.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "chevorlet"
+            },
+            {
+                "car_name": "nissan leaf nismo rc",
+                "car_class": "d",
+                "car_image": "class-D/nissanleafnismo.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "nissan"
+            },
+            {
+                "car_name": "nissan 370z nismo",
+                "car_class": "d",
+                "car_image": "class-D/nissan370nismo.jpg",
+                "stars": 3,
+                "is_max": true,
+                "max_stars": 3,
+                "brand_name": "nissan"
+            },
+            {
+                "car_name": "ktm x-bow gtx",
+                "car_class": "d",
+                "car_image": "class-D/ktmxbow.jpg",
+                "stars": 0,
+                "max_stars": 3,
+                "is_max": false,
+                "brand_name": "ktm"
+            },
+            {
+                "car_name": "volkswagon xl sports concept",
+                "car_class": "d",
+                "car_image": "class-D/vwXL.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "volkswagon"
+            },
+            {
+                "car_name": "ds e-tense",
+                "car_class": "d",
+                "car_image": "class-D/dsetense.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "ds"
+            },
+            {
+                "car_name": "dodge challenger 392 hemi scat pack",
+                "car_class": "d",
+                "car_image": "class-D/dodgechallengerhemiscat.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "dodge"
+            },
+            {
+                "car_name": "renault dezir",
+                "car_class": "d",
+                "car_image": "class-D/renaultdezir.jpg",
+                "stars": 2,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "renault"
+            },
+            {
+                "car_name": "italdesign davinci",
+                "car_class": "d",
+                "car_image": "class-D/italdesigndavinci.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "italdesign"
+            },
+            {
+                "car_name": "bmw i8 roadster",
+                "car_class": "d",
+                "car_image": "class-D/bmwi8.jpg",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "bmw"
+            },
+            {
+                "car_name": "peugeot sr1",
+                "car_class": "d",
+                "car_image": "class-D/peugeotsr1.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "peugeot"
+            },
+            {
+                "car_name": "porsche 718 cayman",
+                "car_class": "d",
+                "car_image": "class-D/porschecayman.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "porsche"
+            },
+            {
+                "car_name": "infiniti project black s",
+                "car_class": "d",
+                "car_image": "class-D/infinitiprojectblack.jpg",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "infiniti"
+            },
+            {
+                "car_name": "lotus elise sprint 220",
+                "car_class": "d",
+                "car_image": "class-D/lotuselise.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "lotus"
+            },
+            {
+                "car_name": "lamborghini countach 25th anniversary",
+                "car_class": "d",
+                "car_image": "class-D/lambocountachOLD.jpg",
+                "stars": 2,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "lamborghini"
+            },
+            {
+                "car_name": "ford shelby gt350r",
+                "car_class": "d",
+                "car_image": "class-D/fordshelbygt350r.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "ford"
+            },
+            {
+                "car_name": "porsche 911 targa 4s",
+                "car_class": "d",
+                "car_image": "class-D/porsche911targa.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "porsche"
+            },
+            {
+                "car_name": "lotus emira",
+                "car_class": "d",
+                "car_image": "class-D/lotusemira.jpg",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "lotus"
+            },
+            {
+                "car_name": "praga r1",
+                "car_class": "d",
+                "car_image": "class-D/parga_r1.jpg",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "praga"
+            },
+            {
+                "car_name": "ginetta g60",
+                "car_class": "d",
+                "car_image": "class-D/ginettag60.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "ginetta"
+            },
+            {
+                "car_name": "renault trezor",
+                "car_class": "d",
+                "car_image": "class-D/resaulttrezor.jpg",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "renault"
+            },
+            {
+                "car_name": "honda civic type r",
+                "car_class": "d",
+                "car_image": "class-D/hondacivicR.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "honda"
+            },
+            {
+                "car_name": "porsche taycan turbo s",
+                "car_class": "d",
+                "car_image": "class-D/porschetaycan.jpg",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "porsche"
+            },
+            {
+                "car_name": "tvr griffith",
+                "car_class": "d",
+                "car_image": "class-D/tvrgriffith.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "tvr"
+            },
+            {
+                "car_name": "bentley continental gt3",
+                "car_class": "d",
+                "car_image": "class-D/bentleycontinentalgt3.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "bentley"
+            },
+            {
+                "car_name": "mazda furai",
+                "car_class": "d",
+                "car_image": "class-D/mazdafurai.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "mazda"
+            },
+            {
+                "car_name": "chevorlet corvette c7-r",
+                "car_class": "d",
+                "car_image": "class-D/chevycorvettec7r.jpg",
+                "stars": "5",
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "chevorlet"
+            },
+            {
+                "car_name": "lamborghini huracan super trofeo evo",
+                "car_class": "d",
+                "car_image": "class-D/lambohuracanSTE.jpg",
+                "stars": 2,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "lamborghini"
+            },
+            {
+                "car_name": "volkswagon electric r",
+                "car_class": "d",
+                "car_image": "class-D/vwelectricR.jpg",
+                "stars": 0,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "volkswagon"
+            },
+            {
+                "car_name": "glickenhaus 004c",
+                "car_class": "d",
+                "car_image": "class-D/glickenhaus004.jpg",
+                "stars": 2,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "glickenhaus"
+            }
+        ],
+        "cars_c": [
+            {
+                "car_name": "dode challenger srt-8",
+                "car_class": "c",
+                "car_image": "class-C/dodgechallengersrt8.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": false,
+                "brand_name": "dodge"
+            },
+            {
+                "car_name": "bmw 3.0 csl hommage",
+                "car_class": "c",
+                "car_image": "class-C/bmwcslhommage.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": false,
+                "brand_name": "bmw"
+            },
+            {
+                "car_name": "porsche boxster 25th",
+                "car_class": "c",
+                "car_image": "class-C/porchecayman25.jpg",
+                "stars": 0,
+                "max_stars": 3,
+                "is_max": false,
+                "brand_name": "porsche"
+            },
+            {
+                "car_name": "chevorlet camaro zl1 50th edition",
+                "car_class": "c",
+                "car_image": "class-C/chevycamarozl1.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": false,
+                "brand_name": "chevorlet"
+            },
+            {
+                "car_name": "lotus evora sport 410",
+                "car_class": "c",
+                "car_image": "class-C/lotusevora.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": false,
+                "brand_name": "lotus"
+            },
+            {
+                "car_name": "mercedes-benz amg gt s",
+                "car_class": "c",
+                "car_image": "class-C/mercedesamggt.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": false,
+                "brand_name": "mercedes"
+            },
+            {
+                "car_name": "bmw m4 gts",
+                "car_class": "c",
+                "car_image": "class-C/bmwm4.jpg",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": false,
+                "brand_name": "bmw"
+            },
+            {
+                "car_name": "rezvani beast x",
+                "car_class": "c",
+                "car_image": "class-C/rezvanibeastx.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "rezvani"
+            },
+            {
+                "car_name": "aston martin v12 speedster",
+                "car_class": "c",
+                "car_image": "class-C/astonmartinv12speedster.jpg",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "aston martin"
+            },
+            {
+                "car_name": "donkervoot d8 gto individual series",
+                "car_class": "c",
+                "car_image": "class-C/donkervootd8gto.jpg",
+                "stars": 0,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "donkervoot"
+            },
+            {
+                "car_name": "dodge viper acr",
+                "car_class": "c",
+                "car_image": "class-C/dodgeviperacr.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "dodge"
+            },
+            {
+                "car_name": "bolwell mk x nagari 500",
+                "car_class": "c",
+                "car_image": "class-C/bolwellmxnagari.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "bolwell"
+            },
+            {
+                "car_name": "ford shelby gr-1",
+                "car_class": "c",
+                "car_image": "class-C/fordshelbygr1.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "ford"
+            },
+            {
+                "car_name": "pininfarina h2 speed",
+                "car_class": "c",
+                "car_image": "class-C/pininfarinah2.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "pininfarina"
+            },
+            {
+                "car_name": "artega scalo superelletra",
+                "car_class": "c",
+                "car_image": "class-C/artegascalo.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "artega"
+            },
+            {
+                "car_name": "saleen s1",
+                "car_class": "c",
+                "car_image": "class-C/saleens1.jpg",
+                "stars": 0,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "saleen"
+            },
+            {
+                "car_name": "acura 2017 nsx",
+                "car_class": "c",
+                "car_image": "class-C/acuransx2017.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "acura"
+            },
+            {
+                "car_name": "maserati alfieri",
+                "car_class": "c",
+                "car_image": "class-C/maseratialfieri.jpg",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "maserati"
+            },
+            {
+                "car_name": "ferrari monza sp1",
+                "car_class": "c",
+                "car_image": "class-C/ferrarimonza.jpg",
+                "stars": 0,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "ferrari"
+            },
+            {
+                "car_name": "ats automobili corsa rr turbo",
+                "car_class": "c",
+                "car_image": "class-C/atscorsa.jpg",
+                "stars": 0,
+                "max_stars": 0,
+                "is_max": false,
+                "brand_name": "ats"
+            },
+            {
+                "car_name": "jaguar xe sv project s",
+                "car_class": "c",
+                "car_image": "class-C/jaguarxesv.jpg",
+                "stars": 0,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "jaguar"
+            },
+            {
+                "car_name": "ferrari f40",
+                "car_class": "c",
+                "car_image": "class-C/ferrarif40.jpg",
+                "stars": 5,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "ferrari"
+            },
+            {
+                "car_name": "renault r.s. 01",
+                "car_class": "c",
+                "car_image": "class-C/renaultrs1.jpg",
+                "stars": 3,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "renault"
+            },
+            {
+                "car_name": "acura nsx gt3 evo",
+                "car_class": "c",
+                "car_image": "class-C/acuransxgt3.jpg",
+                "stars": 5,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "acura"
+            },
+            {
+                "car_name": "vencer sarthe",
+                "car_class": "c",
+                "car_image": "class-C/verncersarthe.jpg",
+                "stars": 5,
+                "max_stars": 5,
+                "is_max": true,
+                "brand_name": "vencer"
+            },
+            {
+                "car_name": "maserati mc12",
+                "car_class": "c",
+                "car_image": "class-C/maseratimc12.jpg",
+                "stars": 0,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "maserati"
+            },
+            {
+                "car_name": "bentley mulliner bacalar",
+                "car_class": "c",
+                "car_image": "class-C/bentleybacalar.jpg",
+                "stars": 3,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "bentley"
+            },
+            {
+                "car_name": "lamborghini miura concept",
+                "car_class": "c",
+                "car_image": "class-C/lambomiura.jpg",
+                "stars": 0,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "lamborghini"
+            },
+            {
+                "car_name": "porsche 718 cayman gt4 clubsport",
+                "car_class": "c",
+                "car_image": "class-C/porschecaymangt4.jpg",
+                "stars": 5,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "porsche"
+            },
+            {
+                "car_name": "chevorlet corvette stingray",
+                "car_class": "c",
+                "car_image": "class-C/chevycorvettestingray.jpg",
+                "stars": 5,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "chevorlet"
+            },
+            {
+                "car_name": "brabham bt62",
+                "car_class": "c",
+                "car_image": "class-C/brabhambt62.jpg",
+                "stars": 0,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "brabham"
+            },
+            {
+                "car_name": "ferrari 599xx evo",
+                "car_class": "c",
+                "car_image": "class-C/ferrari599.jpg",
+                "stars": 5,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "ferrari"
+            },
+            {
+                "car_name": "ares s1",
+                "car_class": "c",
+                "car_image": "class-C/aress1.jpg",
+                "stars": 2,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "ares"
+            },
+            {
+                "car_name": "lamborghini diablo",
+                "car_class": "c",
+                "car_image": "class-C/lambodiablo.jpg",
+                "stars": 1,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "lamborghini"
+            },
+            {
+                "car_name": "arrinera hussarya 33",
+                "car_class": "c",
+                "car_image": "class-C/arrinerahussarya.jpg",
+                "stars": 5,
+                "max_stars": 5,
+                "is_max": true,
+                "brand_name": "arrinera"
+            },
+            {
+                "car_name": "bugatti eb110",
+                "car_class": "c",
+                "car_image": "class-C/bugattieb110.jpg",
+                "stars": 2,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "bugatti"
+            },
+            {
+                "car_name": "lamborghini gallardo lp 560-4",
+                "car_class": "c",
+                "car_image": "class-C/lambogallardo.jpg",
+                "stars": 0,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "lamborghini"
+            },
+            {
+                "car_name": "mclaren gt",
+                "car_class": "c",
+                "car_image": "class-C/mclarenGT.jpg",
+                "stars": 2,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "mclaren"
+            },
+            {
+                "car_name": "mercedes-benz amg gt black series",
+                "car_class": "c",
+                "car_image": "class-C/mercedesGTblack.jpg",
+                "stars": 2,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "mercedes"
+            }
+        ]
+    },
+    {
+        "player_name": "abdellah",
+        "cars_d": [
+            {
+                "car_name": "mitsubishi ?? lancer !! evolution",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "mitsubishi"
+            },
+            {
+                "car_name": "BMW z4 lci e89",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "bmw"
+            },
+            {
+                "car_name": "Chevorlet camaro lt",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "chevorlet"
+            },
+            {
+                "car_name": "nissan leaf nismo rc",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "nissan"
+            },
+            {
+                "car_name": "nissan 370z nismo",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "is_max": true,
+                "max_stars": 3,
+                "brand_name": "nissan"
+            },
+            {
+                "car_name": "ktm x-bow gtx",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 0,
+                "max_stars": 3,
+                "is_max": false,
+                "brand_name": "ktm"
+            },
+            {
+                "car_name": "volkswagon xl sports concept",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "volkswagon"
+            },
+            {
+                "car_name": "ds e-tense",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "ds"
+            },
+            {
+                "car_name": "dodge challenger 392 hemi scat pack",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 3,
+                "is_max": true,
+                "brand_name": "dodge"
+            },
+            {
+                "car_name": "renault dezir",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 2,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "renault"
+            },
+            {
+                "car_name": "italdesign davinci",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "italdesign"
+            },
+            {
+                "car_name": "bmw i8 roadster",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "bmw"
+            },
+            {
+                "car_name": "peugeot sr1",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "peugeot"
+            },
+            {
+                "car_name": "porsche 718 cayman",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "porsche"
+            },
+            {
+                "car_name": "infiniti project black s",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "infiniti"
+            },
+            {
+                "car_name": "lotus elise sprint 220",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "lotus"
+            },
+            {
+                "car_name": "lamborghini countach 25th anniversary",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 2,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "lamborghini"
+            },
+            {
+                "car_name": "ford shelby gt350r",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "ford"
+            },
+            {
+                "car_name": "porsche 911 targa 4s",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "porsche"
+            },
+            {
+                "car_name": "lotus emira",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "lotus"
+            },
+            {
+                "car_name": "praga r1",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "praga"
+            },
+            {
+                "car_name": "ginetta g60",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "ginetta"
+            },
+            {
+                "car_name": "renault trezor",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "renault"
+            },
+            {
+                "car_name": "honda civic type r",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "honda"
+            },
+            {
+                "car_name": "porsche taycan turbo s",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 3,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "porsche"
+            },
+            {
+                "car_name": "tvr griffith",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": false,
+                "brand_name": "tvr"
+            },
+            {
+                "car_name": "bentley continental gt3",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "bentley"
+            },
+            {
+                "car_name": "mazda furai",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 4,
+                "max_stars": 4,
+                "is_max": true,
+                "brand_name": "mazda"
+            },
+            {
+                "car_name": "chevorlet corvette c7-r",
+                "car_class": "d",
+                "car_image": "",
+                "stars": "5",
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "chevorlet"
+            },
+            {
+                "car_name": "lamborghini huracan super trofeo evo",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 2,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "lamborghini"
+            },
+            {
+                "car_name": "volkswagon electric r",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 0,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "volkswagon"
+            },
+            {
+                "car_name": "glickenhaus 004c",
+                "car_class": "d",
+                "car_image": "",
+                "stars": 2,
+                "max_stars": 5,
+                "is_max": false,
+                "brand_name": "glickenhaus"
+            }
+        ]
+    }
+]

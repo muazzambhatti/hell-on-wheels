@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(body-images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#body {
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+    height: fit-content;
+    width: 75%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #7800004f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 85px;
+    width: 100%;
+    background-image: url(body-images/black-pearl-granite-section.jpg);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo #firstpart {
+    height: 80px;
+}
+
+#logo #secondpart {
+    height: 50px;
+    filter: invert(100);
+}
+
+#headerTitle {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 10px;
+}
+
+section {
+    margin: 10px auto;
+}
+
+#filtersAndSearch {
+    background-color: rgba(0, 0, 0, 0.655);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-shadow: 3px 3px 5px red;
+    font-size: medium;
+}
+
+#filterLeft {
+    border-right: 2px solid rgb(121, 0, 0);
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leftFilters {
+    margin: 5px;
+    display: inline-block;
+}
+
+#stars option {
+    font-size: medium;
+}
+
+.leftFilters select {
+    width: 120px;
+}
+
+#filterRight {
+    border-left: 2px solid rgb(121, 0, 0);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbox {
+    width: 30%;
+}
+
+#filterResults {
+    width: 85%;
+    /* border: 1px solid palevioletred; */
+}
+
+.carResults {
+    border-bottom: 2px solid white;
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+.carResults h2 {
+    margin: 5px auto;
+    width: 50%;
+    background-color: #0e0e0ec2;
+    border-radius: 10px;
+}
+
+.carDisplays {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main {
+    width: 250px;
+    height: 115px;
+    margin: 5px;
+    position: relative;
+}
+
+.name {
+    background-color: #0000007b;
+    width: 60%;
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    padding: 3px;
+}
+
+.totalstars {
+    background-color: #0000007b;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: x-large;
+    color: black;
+}
+
+.actualstars {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: x-large;
+    color: rgb(239, 237, 237);
+}
+
+.maxtrue {
+    color: gold;
+}
