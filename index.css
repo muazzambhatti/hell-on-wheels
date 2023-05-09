@@ -11,7 +11,6 @@ body {
     position: relative;
     margin: 0px auto;
     padding: 0px;
-    height: fit-content;
     width: 75%;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -157,33 +156,43 @@ section {
 .maxtrue {
     color: gold;
 }
-
+#userGuide {
+    color: white;
+}
+#userGuide li {
+    font-size: large;
+    width: 70%;
+    margin: 10px;
+}
 @media screen and  (max-width:420px){
     body {
         background-image: url("body-images/phone-background.png");
     }
     #body {
-        width: 95%;
+        width: 100%;
     }
     header {
-        margin: 0px auto;
-        height: 50px;
+        height: 10vw;
+        width: 100%;
         position: fixed;
         top: 0px;
     }
     #logo #firstpart {
-        height: 35px;
+        height: 7vw;
+        margin-left: 5px;
     }
     
     #logo #secondpart {
-        height: 25px;
+        height: 5vw;
     }
     #headertitlecontainer {
-        width: 30%;
+        width: 48%;
     }
     #headerTitle {
         width: 100%;
-        font-size: smaller;
-        margin-right: 5px;
+        font-size: 3.5vw;
+    }
+    #allFiltersContainer {
+        margin-top: 10vw ;
     }
 }

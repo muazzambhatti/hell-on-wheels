@@ -2,139 +2,253 @@
     const response = await fetch("garages.json");
     const allPlayers = await response.json();
 
-    let PlayerCarsD;
-    let PlayerCarsC;
-    let PlayerCarsB;
-    let PlayerCarsA;
-    let PlayerCarsS;
-
     document.getElementById("searchbtn").addEventListener("click", search);
-    document.getElementById("playerSelect").addEventListener("change", findPlayerName);
-    document.getElementById("brandSelect").addEventListener("change", filter);
-
-    // document.getElementById("d_cars_list").style.display = "none";
-    // document.getElementById("c_cars_list").style.display = "none";
-    // document.getElementById("b_cars_list").style.display = "none";
-    // document.getElementById("a_cars_list").style.display = "none";
-    // document.getElementById("s_cars_list").style.display = "none";
-
-    function findPlayerName() {
-        PlayerCarsD = "";
-        PlayerCarsC = "";
-        PlayerCarsB = "";
-        PlayerCarsA = "";
-        PlayerCarsS = "";
-        document.getElementById("D_car_container").innerHTML = "";
-        document.getElementById("C_car_container").innerHTML = "";
-        document.getElementById("d_cars_list").style.display = "none";
-        document.getElementById("c_cars_list").style.display = "none";
-        let player = document.getElementById("playerSelect").value.toLowerCase();
-        for (let index = 0; index < allPlayers.length; index++) {
-            if (allPlayers[index].player_name == player) {
-                PlayerCarsD = allPlayers[index].cars_d;
-                PlayerCarsC = allPlayers[index].cars_c;
-                PlayerCarsB = allPlayers[index].cars_b
-                PlayerCarsA = allPlayers[index].cars_a
-                PlayerCarsS = allPlayers[index].cars_s
-            }
+    document.getElementById("searchbox").addEventListener("keypress", function (event) {
+        if (event.key === "Enter" && document.getElementById("searchbox").value !== "") {
+            search();
         }
-        createCards(PlayerCarsD, PlayerCarsC, PlayerCarsB, PlayerCarsA, PlayerCarsS);
-    }
+    });
+    document.getElementById("playerSelect").addEventListener("change", filter);
+    document.getElementById("brandSelect").addEventListener("change", filter);
+    document.getElementById("starsSelect").addEventListener("change", filter);
+    document.getElementById("classSelect").addEventListener("change", filter);
+    document.getElementById("maxSelect").addEventListener("change", filter); // checkbox
+    document.getElementById("unlockSelect").addEventListener("change", filter); // checkbox
+
 
     function search() {
         let player = document.getElementById("playerSelect").value;
+        let searchString = document.getElementById("searchbox").value.toLowerCase();
         if (player == "") {
             return alert("no player selected");
+        } else {
+
+            if (player =="all") {
+                requiredGarages = allPlayers;
+            } else {
+                requiredGarages = getplayer(player);
+            }
+
+            filteredArray = [];
+
+            for (let index = 0; index < requiredGarages.length; index++) {
+
+                carsD = requiredGarages[index].cars_d.filter(function (car) {
+                    return car.car_name.toLowerCase().includes(searchString);
+                })
+                carsC = requiredGarages[index].cars_c.filter(function (car) {
+                    return car.car_name.toLowerCase().includes(searchString);
+                })
+                carsB = requiredGarages[index].cars_b.filter(function (car) {
+                    return car.car_name.toLowerCase().includes(searchString);
+                })
+                carsA = requiredGarages[index].cars_a.filter(function (car) {
+                    return car.car_name.toLowerCase().includes(searchString);
+                })
+                carsS = requiredGarages[index].cars_s.filter(function (car) {
+                    return car.car_name.toLowerCase().includes(searchString);
+                })
+
+                newArrayItem = createNewObject(requiredGarages[index].player_name, carsD, carsC, carsB, carsA, carsS)
+
+                filteredArray.push(newArrayItem);
+
+            }
+
+            createCards(filteredArray);
         }
     }
+
+    function getplayer(playerName) {
+        let matchingPlayers = [];
+        for (let index = 0; index < allPlayers.length; index++) {
+            if (allPlayers[index].player_name == playerName) {
+                matchingPlayers.push(allPlayers[index]);
+            }
+        }
+        return matchingPlayers;
+    }
+
 
     function filter() {
+
         let player = document.getElementById("playerSelect").value;
+        let brand = document.getElementById("brandSelect").value;
+        let stars = "" + document.getElementById("starsSelect").value;
+        let carClass = document.getElementById("classSelect").value;
+        let isMax = document.getElementById("maxSelect").checked;
+        let isUnlocked = document.getElementById("unlockSelect").checked;
+
         if (player == "") {
-            return alert("no player selected");
+            document.getElementById("realResults").innerHTML = "";
+            document.getElementById("userGuide").style.display = "block";
+            return;
+        }
+        if (player == "all") {
+            document.getElementById("userGuide").style.display = "none";
+            requiredGarages = allPlayers;
+        } else if (player != "all") {
+            document.getElementById("userGuide").style.display = "none";
+            requiredGarages = getplayer(player);
+        }
+
+        if (brand != "all") {
+
+            filteredArray = [];
+
+            for (let index = 0; index < requiredGarages.length; index++) {
+                carsD = requiredGarages[index].cars_d.filter(function (car) {
+                    return car.brand_name.toLowerCase().includes(brand);
+                })
+                carsC = requiredGarages[index].cars_c.filter(function (car) {
+                    return car.brand_name.toLowerCase().includes(brand);
+                })
+                carsB = requiredGarages[index].cars_b.filter(function (car) {
+                    return car.brand_name.toLowerCase().includes(brand);
+                })
+                carsA = requiredGarages[index].cars_a.filter(function (car) {
+                    return car.brand_name.toLowerCase().includes(brand);
+                })
+                carsS = requiredGarages[index].cars_s.filter(function (car) {
+                    return car.brand_name.toLowerCase().includes(brand);
+                })
+                newArrayItem = createNewObject(requiredGarages[index].player_name, carsD, carsC, carsB, carsA, carsS)
+                filteredArray.push(newArrayItem);
+            }
+            requiredGarages = filteredArray;
+        }
+
+        if (stars != "all") {
+
+            filteredArray = [];
+
+            for (let index = 0; index < requiredGarages.length; index++) {
+
+                carsD = requiredGarages[index].cars_d.filter(function (car) {
+                    return car.stars == stars;
+                })
+                carsC = requiredGarages[index].cars_c.filter(function (car) {
+                    return car.stars == stars;
+                })
+                carsB = requiredGarages[index].cars_b.filter(function (car) {
+                    return car.stars == stars;
+                })
+                carsA = requiredGarages[index].cars_a.filter(function (car) {
+                    return car.stars == stars;
+                })
+                carsS = requiredGarages[index].cars_s.filter(function (car) {
+                    return car.stars == stars;
+                })
+
+                newArrayItem = createNewObject(requiredGarages[index].player_name, carsD, carsC, carsB, carsA, carsS)
+
+                filteredArray.push(newArrayItem);
+
+            }
+
+            requiredGarages = filteredArray;
+
+        }
+
+        if (carClass != "all") {
+            filteredArray = [];
+
+            for (let index = 0; index < requiredGarages.length; index++) {
+                carsD = requiredGarages[index].cars_d.filter(function (car) {
+                    return car.car_class.toLowerCase().includes(carClass);
+                })
+                carsC = requiredGarages[index].cars_c.filter(function (car) {
+                    return car.car_class.toLowerCase().includes(carClass);
+                })
+                carsB = requiredGarages[index].cars_b.filter(function (car) {
+                    return car.car_class.toLowerCase().includes(carClass);
+                })
+                carsA = requiredGarages[index].cars_a.filter(function (car) {
+                    return car.car_class.toLowerCase().includes(carClass);
+                })
+                carsS = requiredGarages[index].cars_s.filter(function (car) {
+                    return car.car_class.toLowerCase().includes(carClass);
+                })
+                newArrayItem = createNewObject(requiredGarages[index].player_name, carsD, carsC, carsB, carsA, carsS)
+                filteredArray.push(newArrayItem);
+            }
+            requiredGarages = filteredArray;
+        }
+
+        if (isMax == true) {
+            filteredArray = [];
+
+            for (let index = 0; index < requiredGarages.length; index++) {
+
+                carsD = requiredGarages[index].cars_d.filter(function (car) {
+                    return car.is_max == isMax;
+                })
+                carsC = requiredGarages[index].cars_c.filter(function (car) {
+                    return car.is_max == isMax;
+                })
+                carsB = requiredGarages[index].cars_b.filter(function (car) {
+                    return car.is_max == isMax;
+                })
+                carsA = requiredGarages[index].cars_a.filter(function (car) {
+                    return car.is_max == isMax;
+                })
+                carsS = requiredGarages[index].cars_s.filter(function (car) {
+                    return car.is_max == isMax;
+                })
+
+                newArrayItem = createNewObject(requiredGarages[index].player_name, carsD, carsC, carsB, carsA, carsS)
+
+                filteredArray.push(newArrayItem);
+
+            }
+            requiredGarages = filteredArray;
+        }
+
+        if (isUnlocked === true) {
+
+            filteredArray = [];
+
+            for (let index = 0; index < requiredGarages.length; index++) {
+
+                carsD = requiredGarages[index].cars_d.filter(function (car) {
+                    return car.stars != 0;
+                })
+                carsC = requiredGarages[index].cars_c.filter(function (car) {
+                    return car.stars != 0;
+                })
+                carsB = requiredGarages[index].cars_b.filter(function (car) {
+                    return car.stars != 0;
+                })
+                carsA = requiredGarages[index].cars_a.filter(function (car) {
+                    return car.stars != 0;
+                })
+                carsS = requiredGarages[index].cars_s.filter(function (car) {
+                    return car.stars != 0;
+                })
+
+                newArrayItem = createNewObject(requiredGarages[index].player_name, carsD, carsC, carsB, carsA, carsS)
+
+                filteredArray.push(newArrayItem);
+
+            }
+            requiredGarages = filteredArray;
+        }
+
+        createCards(requiredGarages);
+    }
+
+    function createNewObject(name, D, C, B, A, S) {
+        return object = {
+            player_name: name,
+            cars_d: D,
+            cars_c: C,
+            cars_b: B,
+            cars_a: A,
+            cars_s: S,
         }
     }
 
-    function createCards(carsD, carsC) {
-        // let playerNameHeading = document.createElement("div");
-        // playerNameHeading.innerHTML = `${   }`
-
-        let totalStars = "";
-                let actualStars = "";
-                let gold = "";
-                let locked = "";
-        if (carsD != "") {
-            document.getElementById("d_cars_list").style.display = "block";
-            for (let index = 0; index < carsD.length; index++) {
-
-                let thisCar = document.createElement("div");
-
-                totalStars = "";
-                actualStars = "";
-                gold = "";
-                locked = "";
-
-                for (var i = 0; i < carsD[index].max_stars; i++) {
-                    totalStars += '&#9733;';
-                }
-                for (var i = 0; i < carsD[index].stars; i++) {
-                    actualStars += '&#9733;';
-                }
-
-                if (carsD[index].is_max == true) {
-                    gold = "maxtrue";
-                }
-                if (carsD[index].stars == 0) {
-                    locked = "url(body-images/locked-car.png),"
-                }
-                thisCar.innerHTML = `
-            <div class="main" style="background-image: ${locked} url(${carsD[index].car_image}); background-repeat: no-repeat;
-            background-size: 100% 100%;">
-                <div class="name">${carsD[index].car_name.toUpperCase()}</div>
-                <div class="totalstars">${totalStars}</div>
-                <div class="actualstars ${gold}" >${actualStars}</div>
-            </div>
-            
-            `
-                document.getElementById("D_car_container").appendChild(thisCar);
-            }
-        } if (carsC != "") {
-            document.getElementById("c_cars_list").style.display = "block";
-            for (let index = 0; index < carsC.length; index++) {
-
-                let thisCar = document.createElement("div");
-
-                totalStars = "";
-                actualStars = "";
-                gold = "";
-                locked = "";
-
-                for (var i = 0; i < carsC[index].max_stars; i++) {
-                    totalStars += '&#9733;';
-                }
-                for (var i = 0; i < carsC[index].stars; i++) {
-                    actualStars += '&#9733;';
-                }
-
-                if (carsC[index].is_max == true) {
-                    gold = "maxtrue";
-                }
-                if (carsC[index].stars == 0) {
-                    locked = "url('body-images/locked-car.png'),"
-                }
-
-                thisCar.innerHTML = `
-            <div class="main" style="background-image: ${locked} url( ${carsC[index].car_image}); background-repeat: no-repeat;
-            background-size: 100% 100%;">
-                <div class="name">${carsC[index].car_name.toUpperCase()}</div>
-                <div class="totalstars">${totalStars}</div>
-                <div class="actualstars ${gold}" >${actualStars}</div>
-            </div>
-            
-            `
-                document.getElementById("C_car_container").appendChild(thisCar);
-            }
-        }
-
+    function createCards(playerArray) {
+        console.log(playerArray);
     }
 })();
