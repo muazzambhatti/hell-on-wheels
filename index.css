@@ -183,14 +183,17 @@ section {
 #userGuide {
     color: white;
 }
+
 #userGuide ul {
     padding-bottom: 10px;
 }
+
 #userGuide li {
     font-size: large;
     width: 70%;
     margin: 10px;
 }
+
 .blockTitle {
     display: flex;
     justify-content: space-between;
@@ -199,6 +202,7 @@ section {
     border-radius: 10px;
     margin: 5px;
 }
+
 .carBlock {
     border: 1px solid white;
     overflow: hidden;
@@ -209,9 +213,11 @@ section {
     width: 97%;
     margin: 0px auto;
 }
+
 .h4 {
     margin: 4px;
 }
+
 .arrow-image {
     margin: 6px;
     cursor: pointer;
@@ -221,9 +227,10 @@ section {
     transform: rotate(90deg);
     transition: transform 0.1s;
 }
+
 .class_headings {
     background-color: #0000009c;
-    border: 1px solid white;
+    border: 2px solid #980000c7;
     border-radius: 15px;
     padding: 0px 10px;
     color: white;
@@ -233,20 +240,28 @@ section {
     align-items: center;
     margin: 5px;
 }
+
 .all_cars_box {
     background-color: rgba(177, 177, 177, 0.416);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     border-radius: 10px;
+    overflow: hidden;
 }
+
 .car_info {
     margin: 10px 0px;
     width: 180px;
     height: 90px;
     position: relative;
 }
+@media screen and (max-width:335px) {
+#searchbox {
+    width: 90%;
+}
 
+}
 @media screen and (max-width:420px) {
     body {
         background-image: url("body-images/phone-background.png");
@@ -281,21 +296,26 @@ section {
         width: 100%;
         font-size: 3.8vw;
     }
-#searchboxContainer {
-    width: 80%;
-}
-#searchbox {
-    margin: 5px;
-}
+
+    #searchboxContainer {
+        width: 80%;
+    }
+
+    #searchbox {
+        margin: 5px;
+    }
+
     #allFiltersContainer {
         margin-top: 11vw;
     }
+
     #filterRight {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     #filterResults {
         width: 95%;
     }
@@ -306,5 +326,11 @@ section {
 
     #userGuide li {
         width: 100%;
+    }
+    .car_info {
+        margin: 10px 0px;
+        width: 170px;
+        height: 80px;
+        position: relative;
     }
 }

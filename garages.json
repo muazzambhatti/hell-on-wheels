@@ -293,7 +293,7 @@
         ],
         "cars_c": [
             {
-                "car_name": "dode challenger srt-8",
+                "car_name": "dodge challenger srt-8",
                 "car_class": "c",
                 "car_image": "class-C/dodgechallengersrt8.jpg",
                 "stars": 3,
@@ -611,7 +611,7 @@
                 "car_name": "bugatti eb110",
                 "car_class": "c",
                 "car_image": "class-C/bugattieb110.jpg",
-                "stars": 2,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "bugatti"
@@ -1888,7 +1888,7 @@
         "player_name": "abdellah",
         "cars_d": [
             {
-                "car_name": "mitsubishi !!!!!! lancer evolution",
+                "car_name": "mitsubishi lancer evolution",
                 "car_class": "d",
                 "car_image": "class-D/mitsubishilancer.jpg",
                 "stars": 3,
@@ -1972,7 +1972,7 @@
                 "car_name": "renault dezir",
                 "car_class": "d",
                 "car_image": "class-D/renaultdezir.jpg",
-                "stars": 2,
+                "stars": 3,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "renault"
@@ -1981,7 +1981,7 @@
                 "car_name": "italdesign davinci",
                 "car_class": "d",
                 "car_image": "class-D/italdesigndavinci.jpg",
-                "stars": 4,
+                "stars": 3,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "italdesign"
@@ -2010,14 +2010,14 @@
                 "car_image": "class-D/porschecayman.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "porsche"
             },
             {
                 "car_name": "infiniti project black s",
                 "car_class": "d",
                 "car_image": "class-D/infinitiprojectblack.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "infiniti"
@@ -2046,7 +2046,7 @@
                 "car_image": "class-D/fordshelbygt350r.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ford"
             },
             {
@@ -2062,7 +2062,7 @@
                 "car_name": "lotus emira",
                 "car_class": "d",
                 "car_image": "class-D/lotusemira.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "lotus"
@@ -2071,7 +2071,7 @@
                 "car_name": "praga r1",
                 "car_class": "d",
                 "car_image": "class-D/parga_r1.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "praga"
@@ -2089,9 +2089,9 @@
                 "car_name": "renault trezor",
                 "car_class": "d",
                 "car_image": "class-D/resaulttrezor.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "renault"
             },
             {
@@ -2107,9 +2107,9 @@
                 "car_name": "porsche taycan turbo s",
                 "car_class": "d",
                 "car_image": "class-D/porschetaycan.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "porsche"
             },
             {
@@ -2118,7 +2118,7 @@
                 "car_image": "class-D/tvrgriffith.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "tvr"
             },
             {
@@ -2143,7 +2143,7 @@
                 "car_name": "chevorlet corvette c7-r",
                 "car_class": "d",
                 "car_image": "class-D/chevycorvettec7r.jpg",
-                "stars": "5",
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "chevorlet"
@@ -2152,7 +2152,7 @@
                 "car_name": "lamborghini huracan super trofeo evo",
                 "car_class": "d",
                 "car_image": "class-D/lambohuracanSTE.jpg",
-                "stars": 2,
+                "stars": 3,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -2161,7 +2161,7 @@
                 "car_name": "volkswagon electric r",
                 "car_class": "d",
                 "car_image": "class-D/vwelectricR.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "volkswagon"
@@ -2170,7 +2170,7 @@
                 "car_name": "glickenhaus 004c",
                 "car_class": "d",
                 "car_image": "class-D/glickenhaus004.jpg",
-                "stars": 2,
+                "stars": 0,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "glickenhaus"
@@ -2178,7 +2178,7 @@
         ],
         "cars_c": [
             {
-                "car_name": "dode challenger srt-8",
+                "car_name": "dodge challenger srt-8",
                 "car_class": "c",
                 "car_image": "class-C/dodgechallengersrt8.jpg",
                 "stars": 3,
@@ -2192,14 +2192,14 @@
                 "car_image": "class-C/bmwcslhommage.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "bmw"
             },
             {
                 "car_name": "porsche boxster 25th",
                 "car_class": "c",
                 "car_image": "class-C/porchecayman25.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 3,
                 "is_max": false,
                 "brand_name": "porsche"
@@ -2210,7 +2210,7 @@
                 "car_image": "class-C/chevycamarozl1.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "chevorlet"
             },
             {
@@ -2219,7 +2219,7 @@
                 "car_image": "class-C/lotusevora.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lotus"
             },
             {
@@ -2228,7 +2228,7 @@
                 "car_image": "class-C/mercedesamggt.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mercedes"
             },
             {
@@ -2237,7 +2237,7 @@
                 "car_image": "class-C/bmwm4.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "bmw"
             },
             {
@@ -2253,16 +2253,16 @@
                 "car_name": "aston martin v12 speedster",
                 "car_class": "c",
                 "car_image": "class-C/astonmartinv12speedster.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "aston martin"
             },
             {
                 "car_name": "donkervoot d8 gto individual series",
                 "car_class": "c",
                 "car_image": "class-C/donkervootd8gto.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "donkervoot"
@@ -2282,7 +2282,7 @@
                 "car_image": "class-C/bolwellmxnagari.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "bolwell"
             },
             {
@@ -2291,7 +2291,7 @@
                 "car_image": "class-C/fordshelbygr1.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ford"
             },
             {
@@ -2300,7 +2300,7 @@
                 "car_image": "class-C/pininfarinah2.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "pininfarina"
             },
             {
@@ -2309,14 +2309,14 @@
                 "car_image": "class-C/artegascalo.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "artega"
             },
             {
                 "car_name": "saleen s1",
                 "car_class": "c",
                 "car_image": "class-C/saleens1.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "saleen"
@@ -2343,7 +2343,7 @@
                 "car_name": "ferrari monza sp1",
                 "car_class": "c",
                 "car_image": "class-C/ferrarimonza.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -2352,16 +2352,16 @@
                 "car_name": "ats automobili corsa rr turbo",
                 "car_class": "c",
                 "car_image": "class-C/atscorsa.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ats"
             },
             {
                 "car_name": "jaguar xe sv project s",
                 "car_class": "c",
                 "car_image": "class-C/jaguarxesv.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "jaguar"
@@ -2390,7 +2390,7 @@
                 "car_image": "class-C/acuransxgt3.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "acura"
             },
             {
@@ -2415,7 +2415,7 @@
                 "car_name": "bentley mulliner bacalar",
                 "car_class": "c",
                 "car_image": "class-C/bentleybacalar.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "bentley"
@@ -2424,7 +2424,7 @@
                 "car_name": "lamborghini miura concept",
                 "car_class": "c",
                 "car_image": "class-C/lambomiura.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -2469,7 +2469,7 @@
                 "car_name": "ares s1",
                 "car_class": "c",
                 "car_image": "class-C/aress1.jpg",
-                "stars": 2,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "ares"
@@ -2478,7 +2478,7 @@
                 "car_name": "lamborghini diablo",
                 "car_class": "c",
                 "car_image": "class-C/lambodiablo.jpg",
-                "stars": 1,
+                "stars": 3,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -2496,7 +2496,7 @@
                 "car_name": "bugatti eb110",
                 "car_class": "c",
                 "car_image": "class-C/bugattieb110.jpg",
-                "stars": 2,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "bugatti"
@@ -2505,7 +2505,7 @@
                 "car_name": "lamborghini gallardo lp 560-4",
                 "car_class": "c",
                 "car_image": "class-C/lambogallardo.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -2514,16 +2514,16 @@
                 "car_name": "mclaren gt",
                 "car_class": "c",
                 "car_image": "class-C/mclarenGT.jpg",
-                "stars": 2,
+                "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mclaren"
             },
             {
                 "car_name": "mercedes-benz amg gt black series",
                 "car_class": "c",
                 "car_image": "class-C/mercedesGTblack.jpg",
-                "stars": 2,
+                "stars": 0,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "mercedes"
@@ -2554,14 +2554,14 @@
                 "car_image": "class-B/IMG-20230507-WA0049.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "jaguar"
             },
             {
                 "car_name": "ferrari f50",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0045.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -2579,7 +2579,7 @@
                 "car_name": "porsche 911 gt1 evolution",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0042.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "porsche"
@@ -2590,7 +2590,7 @@
                 "car_image": "class-B/IMG-20230507-WA0043.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ford"
             },
             {
@@ -2608,14 +2608,14 @@
                 "car_image": "class-B/IMG-20230507-WA0047.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ferrari"
             },
             {
                 "car_name": "arash af10",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0040.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "arash"
@@ -2662,7 +2662,7 @@
                 "car_image": "class-B/IMG-20230507-WA0034.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ferrari"
             },
             {
@@ -2678,7 +2678,7 @@
                 "car_name": "drako gte",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0037.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "drako"
@@ -2696,8 +2696,8 @@
                 "car_name": "mclaren elva",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0031.jpg",
-                "stars": 0,
-                "max_stars": 4,
+                "stars": 5,
+                "max_stars": 5,
                 "is_max": false,
                 "brand_name": "mclaren"
             },
@@ -2705,8 +2705,8 @@
                 "car_name": "nissan r390gt1",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0032.jpg",
-                "stars": 1,
-                "max_stars": 4,
+                "stars": 2,
+                "max_stars": 5,
                 "is_max": false,
                 "brand_name": "nissan"
             },
@@ -2716,23 +2716,23 @@
                 "car_image": "class-B/IMG-20230507-WA0029.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ferrari"
             },
             {
                 "car_name": "lamborghini murceilago lp640 roadster",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0026.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lamborghini"
             },
             {
                 "car_name": "mclaren 765lt",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0027.jpg",
-                "stars": 1,
+                "stars": 4,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -2752,7 +2752,7 @@
                 "car_image": "class-B/IMG-20230507-WA0030.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "aston martin"
             },
             {
@@ -2777,7 +2777,7 @@
                 "car_name": "sin r1 550",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0022.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "sin"
@@ -2786,7 +2786,7 @@
                 "car_name": "lamborghini reventon roadster",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0021.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -2795,7 +2795,7 @@
                 "car_name": "ferrari enzo ferrari",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0017.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -2804,7 +2804,7 @@
                 "car_name": "aston martin one77",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0019.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "aston martin"
@@ -2815,7 +2815,7 @@
                 "car_image": "class-B/IMG-20230507-WA0020.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "apollo"
             },
             {
@@ -2824,7 +2824,7 @@
                 "car_image": "class-B/IMG-20230507-WA0023.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mercedes"
             },
             {
@@ -2840,7 +2840,7 @@
                 "car_name": "lamborghini essenza scv12",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0016.jpg",
-                "stars": 2,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -2849,7 +2849,7 @@
                 "car_name": "mclaren 600lt spider",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0015.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -2858,7 +2858,7 @@
                 "car_name": "puritalia berlinetta",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0013.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "puritalia"
@@ -2885,7 +2885,7 @@
                 "car_name": "nissan gtr-50 italdesign",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0011.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "nissan"
@@ -2894,7 +2894,7 @@
                 "car_name": "zenvo tsr-s",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0010.jpg",
-                "stars": 4,
+                "stars": 3,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "zenvo"
@@ -2903,7 +2903,7 @@
                 "car_name": "lamborghini sesto elemento",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0009.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -2912,7 +2912,7 @@
                 "car_name": "porsche 911 gt3 rs",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0008.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "porsche"
@@ -2921,7 +2921,7 @@
                 "car_name": "ferrari 488 challenge evo",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0007.jpg",
-                "stars": 5,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -2930,7 +2930,7 @@
                 "car_name": "lotus evija",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0006.jpg",
-                "stars": 3,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lotus"
@@ -2939,7 +2939,7 @@
                 "car_name": "mclaren f1lm",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0005.jpg",
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -2948,16 +2948,16 @@
                 "car_name": "volkswagon w12 coupe",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0004.jpg",
-                "stars": 3,
+                "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "volkswagon"
             },
             {
                 "car_name": "pagani huayra r",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0003.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "pagani"
@@ -2966,7 +2966,7 @@
                 "car_name": "lamborghini revuelto",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0001.jpg",
-                "stars": 5,
+                "stars": 1,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -2979,7 +2979,7 @@
                 "car_image": "class-A/IMG-20230507-WA0013.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "aston martin"
             },
             {
@@ -2988,14 +2988,14 @@
                 "car_image": "class-A/IMG-20230507-WA0014.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "nissan"
             },
             {
                 "car_name": "nio ep9",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0006.jpg",
-                "stars": 2,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "nio"
@@ -3006,7 +3006,7 @@
                 "car_image": "class-A/IMG-20230507-WA0007.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ferrari"
             },
             {
@@ -3015,14 +3015,14 @@
                 "car_image": "class-A/IMG-20230507-WA0024.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "dodge"
             },
             {
                 "car_name": "bentley continental gt speed",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0019.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "bentley"
@@ -3042,14 +3042,14 @@
                 "car_image": "class-A/IMG-20230507-WA0016.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mclaren"
             },
             {
                 "car_name": "pagani zonda hp barchetta",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0027.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "pagani"
@@ -3060,14 +3060,14 @@
                 "car_image": "class-A/IMG-20230507-WA0025.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lamborghini"
             },
             {
                 "car_name": "ferrari 812 superfast",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0022.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -3085,7 +3085,7 @@
                 "car_name": "jaguar c-x75",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0030.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "jaguar"
@@ -3103,16 +3103,16 @@
                 "car_name": "mclaren senna gtr",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0028.jpg",
-                "stars": 2,
+                "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mclaren"
             },
             {
                 "car_name": "lamborghini aventador svj roadster",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0034.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -3123,7 +3123,7 @@
                 "car_image": "class-A/IMG-20230507-WA0036.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "porsche"
             },
             {
@@ -3132,14 +3132,14 @@
                 "car_image": "class-A/IMG-20230507-WA0037.jpg",
                 "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "vanda"
             },
             {
                 "car_name": "peugeot 9x8",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0045.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "peugeot"
@@ -3175,7 +3175,7 @@
                 "car_name": "pagani zonda r",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0046.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "pagani"
@@ -3184,7 +3184,7 @@
                 "car_name": "glickenhaus 007s",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0048.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "glickenhaus"
@@ -3193,7 +3193,7 @@
                 "car_name": "citroen gt by citroen",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0051.jpg",
-                "stars": 1,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "citroen"
@@ -3202,7 +3202,7 @@
                 "car_name": "aston martin victor",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0053.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "aston martin"
@@ -3211,7 +3211,7 @@
                 "car_name": "porsche 911 gt2 rs clubsport",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0052.jpg",
-                "stars": 5,
+                "stars": 0,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "porsche"
@@ -3229,7 +3229,7 @@
                 "car_name": "mclaren 650s gt3",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0056.jpg",
-                "stars": 1,
+                "stars": 0,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -3238,7 +3238,7 @@
                 "car_name": "lamborghini sc18",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0055.jpg",
-                "stars": 4,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -3256,7 +3256,7 @@
                 "car_name": "ferrari f8 tributo",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0057.jpg",
-                "stars": 4,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -3265,7 +3265,7 @@
                 "car_name": "lamborghini sc20",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0060.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -3274,16 +3274,16 @@
                 "car_name": "genty akylone",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0058.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "genty"
             },
             {
                 "car_name": "techrules at96 track version",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0059.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "techrules"
@@ -3292,7 +3292,7 @@
                 "car_name": "rimac concept one",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0061.jpg",
-                "stars": 1,
+                "stars": 3,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "rimac"
@@ -3301,7 +3301,7 @@
                 "car_name": "aston martin valhalla concept car",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0062.jpg",
-                "stars": 2,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "aston martin"
@@ -3328,7 +3328,7 @@
                 "car_name": "lamborghini countach lpi 800-4",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0063.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -3368,14 +3368,14 @@
                 "car_image": "class-S/IMG-20230507-WA0111.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "w motors"
             },
             {
                 "car_name": "raesr tachyon speed",
                 "car_class": "s",
                 "car_image":"class-S/IMG-20230507-WA0109.jpg" ,
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "raesr"
@@ -3393,7 +3393,7 @@
                 "car_name": "jaguar xj220s twr",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0108.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "jaguar"
@@ -3411,7 +3411,7 @@
                 "car_name": "chrysler me412",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0104.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "chrysler"
@@ -3438,7 +3438,7 @@
                 "car_name": "ferrari sf90 stradale",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0103.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -3447,7 +3447,7 @@
                 "car_name": "fv frangivento sorpasso gt3",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0099.jpg",
-                "stars": 1,
+                "stars": 0,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "fv frangivento"
@@ -3456,7 +3456,7 @@
                 "car_name": "mclaren senna",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0100.jpg",
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -3465,7 +3465,7 @@
                 "car_name": "bugatti veyron 16.4 grand sport vitesse",
                "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0101.jpg",
-                "stars": 0,
+                "stars": 1 ,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "bugatti"
@@ -3483,7 +3483,7 @@
                 "car_name": "vision 1789",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0094.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "vision"
@@ -3492,7 +3492,7 @@
                 "car_name": "w motors fenyr supersport",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0096.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "w motors"
@@ -3501,7 +3501,7 @@
                 "car_name": "aston martin valkyrie",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0095.jpg",
-                "stars": 1,
+                "stars": 3,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "aston martin"
@@ -3510,7 +3510,7 @@
                 "car_name": "zenvo ts1 gt anniversary",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0097.jpg",
-                "stars": 4,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "zenvo"
@@ -3519,7 +3519,7 @@
                 "car_name": "automobili pininfarina battista",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0091.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "pininfarina"
@@ -3528,7 +3528,7 @@
                 "car_name": "naran hyper coupe",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0093.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "naran"
@@ -3537,7 +3537,7 @@
                 "car_name": "mclaren speedtail",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0092.jpg",
-                "stars": 6,
+                "stars": 5,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -3564,16 +3564,16 @@
                 "car_name": "ultima rs",
                 "car_class": "s",
                 "car_image":"class-S/IMG-20230507-WA0085.jpg" ,
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ultima"
             },
             {
                 "car_name": "lamborghini sian fkp37",
                 "car_class": "s",
                 "car_image":"class-S/IMG-20230507-WA0088.jpg" ,
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -3591,7 +3591,7 @@
                 "car_name": "inferno automobili inferno",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0086.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "inferno"
@@ -3609,9 +3609,9 @@
                 "car_name": "bugatti chiron",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0083.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "bugatti"
             },
             {
@@ -3627,7 +3627,7 @@
                 "car_name": "bugatti divo",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0075.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "bugatti"
@@ -3645,7 +3645,7 @@
                 "car_name": "mazzanti evantra millecavalli",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0081.jpg",
-                "stars": 1,
+                "stars": 5,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mazzanti"
@@ -3672,7 +3672,7 @@
                 "car_name": "koenigsegg jesko",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0077.jpg",
-                "stars": 5,
+                "stars": 3,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "koenigsegg"
@@ -3690,7 +3690,7 @@
                 "car_name": "aspark owl",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0074.jpg",
-                "stars": 1,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "aspark"
@@ -3717,7 +3717,7 @@
                 "car_name": "ssc tuatara",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0072.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "ssc"
@@ -3753,7 +3753,7 @@
                 "car_name": "henessey venom f5",
                 "car_class": "s",
                 "car_image":"class-S/IMG-20230507-WA0067.jpg" ,
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "henessey"
@@ -3773,7 +3773,7 @@
         "player_name": "sam",
         "cars_d": [
             {
-                "car_name": "mitsubishi %%%% lancer ???? evolution",
+                "car_name": "mitsubishi lancer evolution",
                 "car_class": "d",
                 "car_image": "class-D/mitsubishilancer.jpg",
                 "stars": 3,
@@ -3868,14 +3868,14 @@
                 "car_image": "class-D/italdesigndavinci.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "italdesign"
             },
             {
                 "car_name": "bmw i8 roadster",
                 "car_class": "d",
                 "car_image": "class-D/bmwi8.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "bmw"
@@ -3886,7 +3886,7 @@
                 "car_image": "class-D/peugeotsr1.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "peugeot"
             },
             {
@@ -3895,16 +3895,16 @@
                 "car_image": "class-D/porschecayman.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "porsche"
             },
             {
                 "car_name": "infiniti project black s",
                 "car_class": "d",
                 "car_image": "class-D/infinitiprojectblack.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "infiniti"
             },
             {
@@ -3931,7 +3931,7 @@
                 "car_image": "class-D/fordshelbygt350r.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ford"
             },
             {
@@ -3947,9 +3947,9 @@
                 "car_name": "lotus emira",
                 "car_class": "d",
                 "car_image": "class-D/lotusemira.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lotus"
             },
             {
@@ -3974,9 +3974,9 @@
                 "car_name": "renault trezor",
                 "car_class": "d",
                 "car_image": "class-D/resaulttrezor.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "renault"
             },
             {
@@ -3985,16 +3985,16 @@
                 "car_image": "class-D/hondacivicR.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "honda"
             },
             {
                 "car_name": "porsche taycan turbo s",
                 "car_class": "d",
                 "car_image": "class-D/porschetaycan.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "porsche"
             },
             {
@@ -4003,7 +4003,7 @@
                 "car_image": "class-D/tvrgriffith.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "tvr"
             },
             {
@@ -4046,7 +4046,7 @@
                 "car_name": "volkswagon electric r",
                 "car_class": "d",
                 "car_image": "class-D/vwelectricR.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "volkswagon"
@@ -4063,12 +4063,12 @@
         ],
         "cars_c": [
             {
-                "car_name": "dode challenger srt-8",
+                "car_name": "dodge challenger srt-8",
                 "car_class": "c",
                 "car_image": "class-C/dodgechallengersrt8.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "dodge"
             },
             {
@@ -4077,14 +4077,14 @@
                 "car_image": "class-C/bmwcslhommage.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "bmw"
             },
             {
                 "car_name": "porsche boxster 25th",
                 "car_class": "c",
                 "car_image": "class-C/porchecayman25.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 3,
                 "is_max": false,
                 "brand_name": "porsche"
@@ -4095,7 +4095,7 @@
                 "car_image": "class-C/chevycamarozl1.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "chevorlet"
             },
             {
@@ -4104,7 +4104,7 @@
                 "car_image": "class-C/lotusevora.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lotus"
             },
             {
@@ -4113,7 +4113,7 @@
                 "car_image": "class-C/mercedesamggt.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mercedes"
             },
             {
@@ -4122,7 +4122,7 @@
                 "car_image": "class-C/bmwm4.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "bmw"
             },
             {
@@ -4138,9 +4138,9 @@
                 "car_name": "aston martin v12 speedster",
                 "car_class": "c",
                 "car_image": "class-C/astonmartinv12speedster.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "aston martin"
             },
             {
@@ -4167,7 +4167,7 @@
                 "car_image": "class-C/bolwellmxnagari.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "bolwell"
             },
             {
@@ -4176,7 +4176,7 @@
                 "car_image": "class-C/fordshelbygr1.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ford"
             },
             {
@@ -4185,7 +4185,7 @@
                 "car_image": "class-C/pininfarinah2.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "pininfarina"
             },
             {
@@ -4194,14 +4194,14 @@
                 "car_image": "class-C/artegascalo.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "artega"
             },
             {
                 "car_name": "saleen s1",
                 "car_class": "c",
                 "car_image": "class-C/saleens1.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "saleen"
@@ -4228,7 +4228,7 @@
                 "car_name": "ferrari monza sp1",
                 "car_class": "c",
                 "car_image": "class-C/ferrarimonza.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -4237,16 +4237,16 @@
                 "car_name": "ats automobili corsa rr turbo",
                 "car_class": "c",
                 "car_image": "class-C/atscorsa.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ats"
             },
             {
                 "car_name": "jaguar xe sv project s",
                 "car_class": "c",
                 "car_image": "class-C/jaguarxesv.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "jaguar"
@@ -4275,7 +4275,7 @@
                 "car_image": "class-C/acuransxgt3.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "acura"
             },
             {
@@ -4300,7 +4300,7 @@
                 "car_name": "bentley mulliner bacalar",
                 "car_class": "c",
                 "car_image": "class-C/bentleybacalar.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "bentley"
@@ -4309,7 +4309,7 @@
                 "car_name": "lamborghini miura concept",
                 "car_class": "c",
                 "car_image": "class-C/lambomiura.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -4320,7 +4320,7 @@
                 "car_image": "class-C/porschecaymangt4.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "porsche"
             },
             {
@@ -4329,7 +4329,7 @@
                 "car_image": "class-C/chevycorvettestingray.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "chevorlet"
             },
             {
@@ -4390,7 +4390,7 @@
                 "car_name": "lamborghini gallardo lp 560-4",
                 "car_class": "c",
                 "car_image": "class-C/lambogallardo.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -4399,9 +4399,9 @@
                 "car_name": "mclaren gt",
                 "car_class": "c",
                 "car_image": "class-C/mclarenGT.jpg",
-                "stars": 2,
+                "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mclaren"
             },
             {
@@ -4421,7 +4421,7 @@
                 "car_image": "class-B/IMG-20230507-WA0050.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "porsche"
             },
             {
@@ -4439,7 +4439,7 @@
                 "car_image": "class-B/IMG-20230507-WA0049.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "jaguar"
             },
             {
@@ -4457,14 +4457,14 @@
                 "car_image": "class-B/IMG-20230507-WA0044.jpg",
                 "stars": 3,
                 "max_stars": 3,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "exotic"
             },
             {
                 "car_name": "porsche 911 gt1 evolution",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0042.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "porsche"
@@ -4475,7 +4475,7 @@
                 "car_image": "class-B/IMG-20230507-WA0043.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ford"
             },
             {
@@ -4484,7 +4484,7 @@
                 "car_image": "class-B/IMG-20230507-WA0046.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lamborghini"
             },
             {
@@ -4493,14 +4493,14 @@
                 "car_image": "class-B/IMG-20230507-WA0047.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ferrari"
             },
             {
                 "car_name": "arash af10",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0040.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "arash"
@@ -4520,7 +4520,7 @@
                 "car_image": "class-B/IMG-20230507-WA0038.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ford"
             },
             {
@@ -4529,7 +4529,7 @@
                 "car_image": "class-B/IMG-20230507-WA0041.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "italdesign"
             },
             {
@@ -4547,7 +4547,7 @@
                 "car_image": "class-B/IMG-20230507-WA0034.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ferrari"
             },
             {
@@ -4563,7 +4563,7 @@
                 "car_name": "drako gte",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0037.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "drako"
@@ -4581,8 +4581,8 @@
                 "car_name": "mclaren elva",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0031.jpg",
-                "stars": 0,
-                "max_stars": 4,
+                "stars": 5,
+                "max_stars": 5,
                 "is_max": false,
                 "brand_name": "mclaren"
             },
@@ -4590,8 +4590,8 @@
                 "car_name": "nissan r390gt1",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0032.jpg",
-                "stars": 1,
-                "max_stars": 4,
+                "stars": 2,
+                "max_stars": 5,
                 "is_max": false,
                 "brand_name": "nissan"
             },
@@ -4601,23 +4601,23 @@
                 "car_image": "class-B/IMG-20230507-WA0029.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ferrari"
             },
             {
                 "car_name": "lamborghini murceilago lp640 roadster",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0026.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lamborghini"
             },
             {
                 "car_name": "mclaren 765lt",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0027.jpg",
-                "stars": 1,
+                "stars": 4,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -4637,7 +4637,7 @@
                 "car_image": "class-B/IMG-20230507-WA0030.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "aston martin"
             },
             {
@@ -4646,7 +4646,7 @@
                 "car_image": "class-B/IMG-20230507-WA0025.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "apex"
             },
             {
@@ -4655,23 +4655,23 @@
                 "car_image": "class-B/IMG-20230507-WA0024.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "apollo"
             },
             {
                 "car_name": "sin r1 550",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0022.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "sin"
             },
             {
                 "car_name": "lamborghini reventon roadster",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0021.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -4680,7 +4680,7 @@
                 "car_name": "ferrari enzo ferrari",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0017.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -4689,7 +4689,7 @@
                 "car_name": "aston martin one77",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0019.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "aston martin"
@@ -4700,7 +4700,7 @@
                 "car_image": "class-B/IMG-20230507-WA0020.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "apollo"
             },
             {
@@ -4709,7 +4709,7 @@
                 "car_image": "class-B/IMG-20230507-WA0023.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mercedes"
             },
             {
@@ -4743,7 +4743,7 @@
                 "car_name": "puritalia berlinetta",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0013.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "puritalia"
@@ -4761,7 +4761,7 @@
                 "car_name": "porsche carrera gt",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0012.jpg",
-                "stars": 5,
+                "stars": 4,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "porsche"
@@ -4770,7 +4770,7 @@
                 "car_name": "nissan gtr-50 italdesign",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0011.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "nissan"
@@ -4779,7 +4779,7 @@
                 "car_name": "zenvo tsr-s",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0010.jpg",
-                "stars": 4,
+                "stars": 3,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "zenvo"
@@ -4806,7 +4806,7 @@
                 "car_name": "ferrari 488 challenge evo",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0007.jpg",
-                "stars": 5,
+                "stars": 3,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -4815,7 +4815,7 @@
                 "car_name": "lotus evija",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0006.jpg",
-                "stars": 3,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lotus"
@@ -4824,7 +4824,7 @@
                 "car_name": "mclaren f1lm",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0005.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -4833,7 +4833,7 @@
                 "car_name": "volkswagon w12 coupe",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0004.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "volkswagon"
@@ -4851,7 +4851,7 @@
                 "car_name": "lamborghini revuelto",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0001.jpg",
-                "stars": 5,
+                "stars": 1,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -4864,7 +4864,7 @@
                 "car_image": "class-A/IMG-20230507-WA0013.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "aston martin"
             },
             {
@@ -4873,14 +4873,14 @@
                 "car_image": "class-A/IMG-20230507-WA0014.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "nissan"
             },
             {
                 "car_name": "nio ep9",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0006.jpg",
-                "stars": 2,
+                "stars": 4,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "nio"
@@ -4891,7 +4891,7 @@
                 "car_image": "class-A/IMG-20230507-WA0007.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ferrari"
             },
             {
@@ -4900,14 +4900,14 @@
                 "car_image": "class-A/IMG-20230507-WA0024.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "dodge"
             },
             {
                 "car_name": "bentley continental gt speed",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0019.jpg",
-                "stars": 0,
+                "stars": 3,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "bentley"
@@ -4927,14 +4927,14 @@
                 "car_image": "class-A/IMG-20230507-WA0016.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mclaren"
             },
             {
                 "car_name": "pagani zonda hp barchetta",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0027.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "pagani"
@@ -4945,14 +4945,14 @@
                 "car_image": "class-A/IMG-20230507-WA0025.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lamborghini"
             },
             {
                 "car_name": "ferrari 812 superfast",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0022.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -4970,7 +4970,7 @@
                 "car_name": "jaguar c-x75",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0030.jpg",
-                "stars": 3,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "jaguar"
@@ -4988,16 +4988,16 @@
                 "car_name": "mclaren senna gtr",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0028.jpg",
-                "stars": 2,
+                "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mclaren"
             },
             {
                 "car_name": "lamborghini aventador svj roadster",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0034.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -5008,7 +5008,7 @@
                 "car_image": "class-A/IMG-20230507-WA0036.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "porsche"
             },
             {
@@ -5017,7 +5017,7 @@
                 "car_image": "class-A/IMG-20230507-WA0037.jpg",
                 "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "vanda"
             },
             {
@@ -5035,7 +5035,7 @@
                 "car_image": "class-A/IMG-20230507-WA0044.jpg",
                 "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "mclaren"
             },
             {
@@ -5060,7 +5060,7 @@
                 "car_name": "pagani zonda r",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0046.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "pagani"
@@ -5069,7 +5069,7 @@
                 "car_name": "glickenhaus 007s",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0048.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "glickenhaus"
@@ -5087,7 +5087,7 @@
                 "car_name": "aston martin victor",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0053.jpg",
-                "stars": 5,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "aston martin"
@@ -5096,7 +5096,7 @@
                 "car_name": "porsche 911 gt2 rs clubsport",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0052.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "porsche"
@@ -5114,7 +5114,7 @@
                 "car_name": "mclaren 650s gt3",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0056.jpg",
-                "stars": 1,
+                "stars": 0,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -5141,7 +5141,7 @@
                 "car_name": "ferrari f8 tributo",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0057.jpg",
-                "stars": 4,
+                "stars": 3,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -5159,9 +5159,9 @@
                 "car_name": "genty akylone",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0058.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "genty"
             },
             {
@@ -5186,7 +5186,7 @@
                 "car_name": "aston martin valhalla concept car",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0062.jpg",
-                "stars": 2,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "aston martin"
@@ -5226,7 +5226,7 @@
                 "car_image": "class-S/IMG-20230507-WA0110.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lamborghini"
             },
             {
@@ -5235,7 +5235,7 @@
                 "car_image": "class-S/IMG-20230507-WA0112.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ferrari"
             },
             {
@@ -5244,7 +5244,7 @@
                 "car_image":"class-S/IMG-20230507-WA0113.jpg" ,
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "icona"
             },
             {
@@ -5253,7 +5253,7 @@
                 "car_image": "class-S/IMG-20230507-WA0111.jpg",
                 "stars": 5,
                 "max_stars": 5,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "w motors"
             },
             {
@@ -5271,14 +5271,14 @@
                 "car_image": "class-S/IMG-20230507-WA0107.jpg",
                 "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lamborghini"
             },
             {
                 "car_name": "jaguar xj220s twr",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0108.jpg",
-                "stars": 0,
+                "stars": 4,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "jaguar"
@@ -5307,7 +5307,7 @@
                 "car_image":"class-S/IMG-20230507-WA0102.jpg" ,
                 "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "trion"
             },
             {
@@ -5323,7 +5323,7 @@
                 "car_name": "ferrari sf90 stradale",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0103.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "ferrari"
@@ -5332,7 +5332,7 @@
                 "car_name": "fv frangivento sorpasso gt3",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0099.jpg",
-                "stars": 1,
+                "stars": 0,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "fv frangivento"
@@ -5341,7 +5341,7 @@
                 "car_name": "mclaren senna",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0100.jpg",
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -5350,7 +5350,7 @@
                 "car_name": "bugatti veyron 16.4 grand sport vitesse",
                "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0101.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "bugatti"
@@ -5359,9 +5359,9 @@
                 "car_name": "lamborghini terzo millennio",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0098.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "lamborghini"
             },
             {
@@ -5377,7 +5377,7 @@
                 "car_name": "w motors fenyr supersport",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0096.jpg",
-                "stars": 3,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "w motors"
@@ -5386,7 +5386,7 @@
                 "car_name": "aston martin valkyrie",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0095.jpg",
-                "stars": 1,
+                "stars": 0,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "aston martin"
@@ -5395,7 +5395,7 @@
                 "car_name": "zenvo ts1 gt anniversary",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0097.jpg",
-                "stars": 4,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "zenvo"
@@ -5404,9 +5404,9 @@
                 "car_name": "automobili pininfarina battista",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0091.jpg",
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "pininfarina"
             },
             {
@@ -5422,7 +5422,7 @@
                 "car_name": "mclaren speedtail",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0092.jpg",
-                "stars": 6,
+                "stars": 5,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mclaren"
@@ -5449,16 +5449,16 @@
                 "car_name": "ultima rs",
                 "car_class": "s",
                 "car_image":"class-S/IMG-20230507-WA0085.jpg" ,
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "ultima"
             },
             {
                 "car_name": "lamborghini sian fkp37",
                 "car_class": "s",
                 "car_image":"class-S/IMG-20230507-WA0088.jpg" ,
-                "stars": 3,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -5476,7 +5476,7 @@
                 "car_name": "inferno automobili inferno",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0086.jpg",
-                "stars": 0,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "inferno"
@@ -5494,16 +5494,16 @@
                 "car_name": "bugatti chiron",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0083.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "bugatti"
             },
             {
                 "car_name": "bxr bailey blade gt1",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0082.jpg",
-                "stars": 2,
+                "stars": 1,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "bxr"
@@ -5512,7 +5512,7 @@
                 "car_name": "bugatti divo",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0075.jpg",
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "bugatti"
@@ -5530,7 +5530,7 @@
                 "car_name": "mazzanti evantra millecavalli",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0081.jpg",
-                "stars": 1,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "mazzanti"
@@ -5557,7 +5557,7 @@
                 "car_name": "koenigsegg jesko",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0077.jpg",
-                "stars": 5,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "koenigsegg"
@@ -5584,7 +5584,7 @@
                 "car_name": "rimac nevera",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0069.jpg",
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "rimac"
@@ -5593,7 +5593,7 @@
                 "car_name": "koenigsegg agera rs",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0071.jpg",
-                "stars": 1,
+                "stars": 2,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "koenigsegg"
@@ -5620,7 +5620,7 @@
                 "car_name": "bugatti la voiture noire",
                 "car_class": "s",
                 "car_image": "class-S/IMG-20230507-WA0068.jpg",
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "bugatti"
@@ -5638,7 +5638,7 @@
                 "car_name": "henessey venom f5",
                 "car_class": "s",
                 "car_image":"class-S/IMG-20230507-WA0067.jpg" ,
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "henessey"
