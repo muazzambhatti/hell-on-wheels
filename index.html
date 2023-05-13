@@ -15,7 +15,7 @@
         <header>
             <div id="logo">
                 <img id="firstpart" src="body-images\HoW-nobackground.png" alt="">
-                <img id="secondpart" src="body-images\hell_on_wheels-removebg-preview.png" alt="">
+                <img id="secondpart" src="body-images\hell_on_wheels-removebg-preview.png">
             </div>
             <div id="headertitlecontainer">
                 <h1 id="headerTitle">
@@ -24,160 +24,174 @@
             </div>
         </header>
 
-<div id="allFiltersContainer">
-    <h3 style="margin: 0px; color: white;">FILTERS</h3>
-    <section id="filtersAndSearch">
-        <div id="filterLeft">
-            <div class="leftFilters">
-                <label for="">Player Name:</label>
-                <select name="" id="playerSelect">
-                    <option value="">...</option>
-                    <option value="all">All</option>
-                    <option value="a duck">A duck</option>
-                    <option value="abdellah">Abdellah</option>
-                    <option value="sam">Sam</option>
-                </select>
+        <div id="allFiltersContainer">
+            <div id="filtersSwitch">
+                <h4 style="margin: 5px; color: white;">FILTERS</h4>
+                <img src="body-images\filter_arrow.png" id="filtersHideShow" style="transform: rotate(0deg);">
             </div>
-            <div class="leftFilters">
-                <label for="">Brand Name:</label>
-                <select name="" id="brandSelect">
-                    <option value="all">All</option>
-                    <option value="ats">ATS</option>
-                    <option value="acura">Acura</option>
-                    <option value="ajlani">Ajlani</option>
-                    <option value="apex">Apex</option>
-                    <option value="apollo">Apollo</option>
-                    <option value="arash">Arash</option>
-                    <option value="ares">Ares</option>
-                    <option value="arrinera">Arrinera</option>
-                    <option value="artega">Artega</option>
-                    <option value="aspark">Aspark</option>
-                    <option value="aston martin">Aston Martin</option>
-                    <option value="pininfarina">Pininfarina</option>
-                    <option value="bmw">BMW</option>
-                    <option value="bxr">BXR</option>
-                    <option value="bentley">Bentley</option>
-                    <option value="bolwell">Bolwell</option>
-                    <option value="brabham">Brabham</option>
-                    <option value="bugatti">Bugatti</option>
-                    <option value="cadillac">Caddilac</option>
-                    <option value="chevorlet">Chevorlet</option>
-                    <option value="chrysler">Chrysler</option>
-                    <option value="citroen">Citroen</option>
-                    <option value="ds">DS</option>
-                    <option value="dodge">Dodge</option>
-                    <option value="donkervoot">Donkervoot</option>
-                    <option value="drako">Drako</option>
-                    <option value="exotic">Exotic</option>
-                    <option value="faraday">Faraday</option>
-                    <option value="ferrari">Ferrari</option>
-                    <option value="ford">Ford</option>
-                    <option value="fv frangivento">Fv Frangivento</option>
-                    <option value="genty">Genty</option>
-                    <option value="ginetta">Ginetta</option>
-                    <option value="glickenhaus">Glickenhaus</option>
-                    <option value="henessey">Henessey</option>
-                    <option value="honda">Honda</option>
-                    <option value="icona">Icona</option>
-                    <option value="inferno">Inferno</option>
-                    <option value="italdesign">Italdesign</option>
-                    <option value="jaguar">Jaguar</option>
-                    <option value="kepler">kepler</option>
-                    <option value="ktm">KTM</option>
-                    <option value="koenigsegg">Koenigsegg</option>
-                    <option value="lamborghini">Lamborghini</option>
-                    <option value="lotus">Lotus</option>
-                    <option value="maserati">Masertai</option>
-                    <option value="mazda">Mazda</option>
-                    <option value="mazzanti">Mazzanti</option>
-                    <option value="mclaren">Mclaren</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="naran">Naran</option>
-                    <option value="nio">Nio</option>
-                    <option value="nissan">Nissan</option>
-                    <option value="pagani">Pagani</option>
-                    <option value="peugeot">Peugeot</option>
-                    <option value="porsche">Porsche</option>
-                    <option value="praga">Praga</option>
-                    <option value="puritalia">Puritalia</option>
-                    <option value="raesr">Raesr</option>
-                    <option value="renault">Renault</option>
-                    <option value="rezvani">Rezvani</option>
-                    <option value="rimac">Rimac</option>
-                    <option value="ssc">SSC</option>
-                    <option value="saleen">Saleen</option>
-                    <option value="sin">Sin</option>
-                    <option value="spania">Spania</option>
-                    <option value="trion">Trion</option>
-                    <option value="tvr">TVR</option>
-                    <option value="techrules">Techrules</option>
-                    <option value="torino">Torino</option>
-                    <option value="toroidion">Toroidion</option>
-                    <option value="tushek">Tushek</option>
-                    <option value="ultima">Ultima</option>
-                    <option value="vlf">VLF</option>
-                    <option value="vanda">Vanda</option>
-                    <option value="vencer">Vencer</option>
-                    <option value="vision">Vision</option>
-                    <option value="volkswagon">Volkswagon</option>
-                    <option value="w motors">W Motors</option>
-                    <option value="zenvo">Zenvo</option>
-                    <option value="infinity">infinity</option>
-                </select>
-            </div>
-            <div class="leftFilters">
-                <label for="">Stars:</label>
-                <select name="" id="starsSelect">
-                    <option value="all">All</option>
-                    <option value="1">✮</option>
-                    <option value="2">✮✮</option>
-                    <option value="3">✮✮✮</option>
-                    <option value="4">✮✮✮✮</option>
-                    <option value="5">✮✮✮✮✮</option>
-                    <option value="6">✮✮✮✮✮✮</option>
-                </select>
-            </div>
-            <div class="leftFilters">
-                <label for="">Class:</label>
-                <select name="" id="classSelect">
-                    <option value="all">All</option>
-                    <option value="d">D</option>
-                    <option value="c">C</option>
-                    <option value="b">B</option>
-                    <option value="a">A</option>
-                    <option value="s">S</option>
-                </select>
-            </div>
-            <div class="leftFilters">
-                <label for="">Car Maxed?</label>
-                <input type="checkbox" id="maxSelect">
-            </div>
-            <div class="leftFilters">
-                <label for="">Unlocked Cars Only?</label>
-                <input type="checkbox" id="unlockSelect">
+            <div id="SectionHide" style="height: 0px;">
+                <!-- style="display: none;" -->
+                <section id="filtersAndSearch">
+                    <div id="filterLeft">
+                        <div class="leftFilters">
+                            <label for="">Player Name:</label>
+                            <select name="" id="playerSelect">
+                                <option value="">...</option>
+                                <option value="all">All</option>
+                                <option value="a duck">A duck</option>
+                                <option value="abdellah">Abdellah</option>
+                                <option value="sam">Sam</option>
+                            </select>
+                        </div>
+                        <div class="leftFilters">
+                            <label for="">Brand Name:</label>
+                            <select name="" id="brandSelect">
+                                <option value="all">All</option>
+                                <option value="ats">ATS</option>
+                                <option value="acura">Acura</option>
+                                <option value="ajlani">Ajlani</option>
+                                <option value="apex">Apex</option>
+                                <option value="apollo">Apollo</option>
+                                <option value="arash">Arash</option>
+                                <option value="ares">Ares</option>
+                                <option value="arrinera">Arrinera</option>
+                                <option value="artega">Artega</option>
+                                <option value="aspark">Aspark</option>
+                                <option value="aston martin">Aston Martin</option>
+                                <option value="pininfarina">Pininfarina</option>
+                                <option value="bmw">BMW</option>
+                                <option value="bxr">BXR</option>
+                                <option value="bentley">Bentley</option>
+                                <option value="bolwell">Bolwell</option>
+                                <option value="brabham">Brabham</option>
+                                <option value="bugatti">Bugatti</option>
+                                <option value="cadillac">Caddilac</option>
+                                <option value="chevorlet">Chevorlet</option>
+                                <option value="chrysler">Chrysler</option>
+                                <option value="citroen">Citroen</option>
+                                <option value="ds">DS</option>
+                                <option value="dodge">Dodge</option>
+                                <option value="donkervoot">Donkervoot</option>
+                                <option value="drako">Drako</option>
+                                <option value="exotic">Exotic</option>
+                                <option value="faraday">Faraday</option>
+                                <option value="ferrari">Ferrari</option>
+                                <option value="ford">Ford</option>
+                                <option value="fv frangivento">Fv Frangivento</option>
+                                <option value="genty">Genty</option>
+                                <option value="ginetta">Ginetta</option>
+                                <option value="glickenhaus">Glickenhaus</option>
+                                <option value="henessey">Henessey</option>
+                                <option value="honda">Honda</option>
+                                <option value="icona">Icona</option>
+                                <option value="inferno">Inferno</option>
+                                <option value="italdesign">Italdesign</option>
+                                <option value="jaguar">Jaguar</option>
+                                <option value="kepler">kepler</option>
+                                <option value="ktm">KTM</option>
+                                <option value="koenigsegg">Koenigsegg</option>
+                                <option value="lamborghini">Lamborghini</option>
+                                <option value="lotus">Lotus</option>
+                                <option value="maserati">Masertai</option>
+                                <option value="mazda">Mazda</option>
+                                <option value="mazzanti">Mazzanti</option>
+                                <option value="mclaren">Mclaren</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="naran">Naran</option>
+                                <option value="nio">Nio</option>
+                                <option value="nissan">Nissan</option>
+                                <option value="pagani">Pagani</option>
+                                <option value="peugeot">Peugeot</option>
+                                <option value="porsche">Porsche</option>
+                                <option value="praga">Praga</option>
+                                <option value="puritalia">Puritalia</option>
+                                <option value="raesr">Raesr</option>
+                                <option value="renault">Renault</option>
+                                <option value="rezvani">Rezvani</option>
+                                <option value="rimac">Rimac</option>
+                                <option value="ssc">SSC</option>
+                                <option value="saleen">Saleen</option>
+                                <option value="sin">Sin</option>
+                                <option value="spania">Spania</option>
+                                <option value="trion">Trion</option>
+                                <option value="tvr">TVR</option>
+                                <option value="techrules">Techrules</option>
+                                <option value="torino">Torino</option>
+                                <option value="toroidion">Toroidion</option>
+                                <option value="tushek">Tushek</option>
+                                <option value="ultima">Ultima</option>
+                                <option value="vlf">VLF</option>
+                                <option value="vanda">Vanda</option>
+                                <option value="vencer">Vencer</option>
+                                <option value="vision">Vision</option>
+                                <option value="volkswagon">Volkswagon</option>
+                                <option value="w motors">W Motors</option>
+                                <option value="zenvo">Zenvo</option>
+                                <option value="infinity">infinity</option>
+                            </select>
+                        </div>
+                        <div class="leftFilters">
+                            <label for="">Stars:</label>
+                            <select name="" id="starsSelect">
+                                <option value="all">All</option>
+                                <option value="1">✮</option>
+                                <option value="2">✮✮</option>
+                                <option value="3">✮✮✮</option>
+                                <option value="4">✮✮✮✮</option>
+                                <option value="5">✮✮✮✮✮</option>
+                                <option value="6">✮✮✮✮✮✮</option>
+                            </select>
+                        </div>
+                        <div class="leftFilters">
+                            <label for="">Class:</label>
+                            <select name="" id="classSelect">
+                                <option value="all">All</option>
+                                <option value="d">D</option>
+                                <option value="c">C</option>
+                                <option value="b">B</option>
+                                <option value="a">A</option>
+                                <option value="s">S</option>
+                            </select>
+                        </div>
+                        <div class="leftFilters">
+                            <label for="">Car Maxed?</label>
+                            <input type="checkbox" id="maxSelect">
+                        </div>
+                        <div class="leftFilters">
+                            <label for="">Unlocked Cars Only?</label>
+                            <input type="checkbox" id="unlockSelect">
+                        </div>
+                    </div>
+                    <div id="filterRight">
+                        <label for="" style="font-size: larger; margin-right: 5px;">Search Car:</label>
+                        <!-- <div style="width: 60%;" id="searchboxContainer"> -->
+                        <input type="text" name="" id="searchbox">
+                        <input type="button" value="Search" id="searchbtn">
+                        <!-- </div> -->
+                    </div>
+                </section>
             </div>
         </div>
-        <div id="filterRight">
-            <label for="" style="font-size: larger; margin-right: 5px;">Search Car:</label>
-            <input type="text" name="" id="searchbox">
-            <input type="button" value="Search" id="searchbtn">
-        </div>
-    </section>
-</div>
 
         <section id="filterResults">
             <div id="userGuide">
-                <h2>User Guide:</h2> 
+                <h3>User Guide:</h3>
                 <ul>
                     <li>Picking "..." from the <em>PLAYER SELECT</em> drop down menu will return you to this guide.</li>
-                    <li>Picking "All" from the <em>PLAYER SELECT</em> drop down will show all available club member garages.</li>
-                    <li>Picking any specific player from the <em>PLAYER SELECT</em> drop down will show only that player's garage.</li>
-                    <li>Search bar can be used to search for car(s) in either one player's garage or all player garages depending on <em>PLAYER SELECT</em> selection.</li>
-                    <li>Use <em>BRAND NAME</em> drop down menu to filter required brand of car(s). Result will show either from one garage or from all garages depending on <em>PLAYER SELECT</em> selection.</li>
+                    <li>Picking "All" from the <em>PLAYER SELECT</em> drop down will show all available club member
+                        garages.</li>
+                    <li>Picking any specific player from the <em>PLAYER SELECT</em> drop down will show only that
+                        player's garage.</li>
+                    <li>Search bar can be used to search for car(s) in either one player's garage or all player garages
+                        depending on <em>PLAYER SELECT</em> selection.</li>
+                    <li>Use <em>BRAND NAME</em> drop down menu to filter required brand of car(s). Result will show
+                        either from one garage or from all garages depending on <em>PLAYER SELECT</em> selection.</li>
                     <li>Using the <em>STARS</em> dropdown menu will filter cars by their current star level.</li>
                     <li>Using the <em>CLASS</em> dropdown menu will filter cars by their class.</li>
-                    <li>Checking the <em>CAR MAXED</em> checkbox will filter only maxed/golden cars from the garage(s)</li>
-                    <li>Checking the <em>UNLOCKED CARS ONLY</em> checkbox will filter only cars unlocked by the player(s)</li>                    
+                    <li>Checking the <em>CAR MAXED</em> checkbox will filter only maxed/golden cars from the garage(s)
+                    </li>
+                    <li>Checking the <em>UNLOCKED CARS ONLY</em> checkbox will filter only cars unlocked by the
+                        player(s)</li>
                 </ul>
             </div>
             <div id="realResults">
