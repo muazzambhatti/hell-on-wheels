@@ -256,11 +256,16 @@ section {
     height: 90px;
     position: relative;
 }
-@media screen and (max-width:335px) {
+@media screen and (max-width:320px) {
 #searchbox {
     width: 90%;
 }
-
+.car_info {
+    margin: 10px 0px;
+    width: 160px;
+    height: 70px;
+    position: relative;
+}
 }
 @media screen and (max-width:420px) {
     body {
