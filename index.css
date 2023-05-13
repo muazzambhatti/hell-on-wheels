@@ -256,17 +256,12 @@ section {
     height: 90px;
     position: relative;
 }
-@media screen and (max-width:320px) {
-#searchbox {
-    width: 90%;
+@media screen and (max-width:350px) {
+    .h4 {
+        font-size: small;
+    }
 }
-.car_info {
-    margin: 10px 0px;
-    width: 160px;
-    height: 70px;
-    position: relative;
-}
-}
+
 @media screen and (max-width:420px) {
     body {
         background-image: url("body-images/phone-background.png");
@@ -305,7 +300,9 @@ section {
     #searchboxContainer {
         width: 80%;
     }
-
+    #searchbox {
+        width: 45vw;
+    }
     #searchbox {
         margin: 5px;
     }
@@ -334,8 +331,18 @@ section {
     }
     .car_info {
         margin: 10px 0px;
-        width: 170px;
-        height: 80px;
+        width: 40vw;
+        height: 20vw;
         position: relative;
+    }
+    .car_name {
+        font-size: 2.5vw;
+    }
+    .totalstars {
+        font-size: 4.5vw;
+    }
+    
+    .actualstars {
+        font-size: 4.5vw;
     }
 }
