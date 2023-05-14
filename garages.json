@@ -9059,7 +9059,7 @@
                 "car_image": "class-S/IMG-20230507-WA0106.jpg",
                 "stars": 3,
                 "max_stars": 6,
-                "is_max": true,
+                "is_max": false,
                 "brand_name": "lamborghini"
             },
             {
