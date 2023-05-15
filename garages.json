@@ -11941,7 +11941,7 @@
                 "car_image": "class-C/mclarenGT.jpg",
                 "stars": 3,
                 "max_stars": 5,
-                "is_max": true,
+                "is_max": false,
                 "brand_name": "mclaren"
             },
             {
@@ -13826,7 +13826,7 @@
                 "car_image": "class-C/mclarenGT.jpg",
                 "stars": 3,
                 "max_stars": 5,
-                "is_max": true,
+                "is_max": false,
                 "brand_name": "mclaren"
             },
             {
