@@ -7591,7 +7591,7 @@
                 "car_name": "ktm x-bow gtx",
                 "car_class": "d",
                 "car_image": "class-D/ktmxbow.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 3,
                 "is_max": false,
                 "brand_name": "ktm"
@@ -7645,7 +7645,7 @@
                 "car_name": "bmw i8 roadster",
                 "car_class": "d",
                 "car_image": "class-D/bmwi8.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "bmw"
@@ -7690,7 +7690,7 @@
                 "car_name": "lamborghini countach 25th anniversary",
                 "car_class": "d",
                 "car_image": "class-D/lambocountachOLD.jpg",
-                "stars": 0,
+                "stars": 1,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "lamborghini"
@@ -7773,7 +7773,7 @@
                 "car_image": "class-D/tvrgriffith.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "tvr"
             },
             {
@@ -7928,7 +7928,7 @@
                 "car_image": "class-C/dodgeviperacr.jpg",
                 "stars": 4,
                 "max_stars": 4,
-                "is_max": false,
+                "is_max": true,
                 "brand_name": "dodge"
             },
             {
@@ -8151,7 +8151,7 @@
                 "car_name": "bugatti eb110",
                 "car_class": "c",
                 "car_image": "class-C/bugattieb110.jpg",
-                "stars": 0,
+                "stars": 5,
                 "max_stars": 5,
                 "is_max": false,
                 "brand_name": "bugatti"
@@ -8324,7 +8324,7 @@
                 "car_name": "kepler motion",
                 "car_class": "b",
                 "car_image": "class-B/IMG-20230507-WA0036.jpg",
-                "stars": 1,
+                "stars": 2,
                 "max_stars": 4,
                 "is_max": false,
                 "brand_name": "kepler"
@@ -8857,7 +8857,7 @@
                 "car_name": "aston martin victor",
                 "car_class": "a",
                 "car_image": "class-A/IMG-20230507-WA0053.jpg",
-                "stars": 0,
+                "stars": 6,
                 "max_stars": 6,
                 "is_max": false,
                 "brand_name": "aston martin"
